@@ -1,0 +1,39 @@
+{
+	"name": "@askelephant/mastra-firestore",
+	"version": "0.1.0",
+	"description": "Mastra storage plugin for Firestore",
+	"type": "module",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"test": "vitest",
+		"lint": "npx @biomejs/biome check --write",
+		"lint:ci": "npx @biomejs/biome check",
+		"prepublishOnly": "npm run lint:ci"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AskElephant/mastra-firestore.git"
+	},
+	"keywords": [
+		"mastra"
+	],
+	"author": "kdawgwilk",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/AskElephant/mastra-firestore/issues"
+	},
+	"homepage": "https://github.com/AskElephant/mastra-firestore#readme",
+	"dependencies": {
+		"@mastra/core": "^0.21.1"
+	},
+	"peerDependencies": {
+		"firebase-admin": "12.x.x || 13.x.x"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.2.6",
+		"typescript": "^5.9.3",
+		"vitest": "^3.2.4"
+	}
+}

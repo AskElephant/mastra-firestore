@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"target": "ES2020", // Modern JavaScript features
+		"module": "CommonJS", // Node.js module system
+		"rootDir": "src", // Source files directory
+		"outDir": "dist", // Compiled output directory
+		"strict": true, // Enable all strict type-checking options
+		"esModuleInterop": true, // Better compatibility with CommonJS modules
+		"skipLibCheck": true, // Skip type checking of declaration files for faster builds
+		"forceConsistentCasingInFileNames": true, // Enforce consistent file name casing
+		"declaration": true, // Generate .d.ts files for type definitions
+		"declarationMap": true // Generate source maps for declarations
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "**/*.test.ts"]
+}
