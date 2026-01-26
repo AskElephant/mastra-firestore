@@ -26,7 +26,7 @@
 	},
 	"homepage": "https://github.com/AskElephant/mastra-firestore#readme",
 	"dependencies": {
-		"@mastra/core": "^0.24.6"
+		"@mastra/core": "^1.0.4"
 	},
 	"peerDependencies": {
 		"firebase-admin": "12.x.x || 13.x.x"
